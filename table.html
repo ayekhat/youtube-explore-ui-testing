@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Oswald:wght@300;400;600;700&family=Rubik+Glitch&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Beau Rivage', cursive;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Rubik Glitch', cursive;
+        }
+
+        .title {
+            color: #f15bb5;
+        }
+
+        /* child selector */
+        .title span {
+            color: black;
+        }
+
+        thead {
+            background-color: #f15bb5;
+            color: white;
+        }
+
+        thead th {
+            text-align: left;
+        }
+
+        tbody tr:hover {
+            background-color: aliceblue;
+        }
+
+        tbody tr td:first-child {
+            background-color: #f15bb580;
+        }
+
+        tbody tr td:last-child {
+            background-color: #f15bb580;
+
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        tr {
+            /* border-bottom: 1px solid black; */
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 10px 15px;
+        }
+
+        .text-align {
+            text-align: right;
+        }
+
+        .total {
+            text-align: center;
+            font-weight: bold;
+            background-color: #f15bb5 !important
+        }
+    </style>
+</head>
+
+<body>
+    <h4 class="title">Table <span>CSS</span></h4>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Course</th>
+                <th class="text-align">Fee</th>
+                <th class="text-align">Discount</th>
+                <th class="text-align">Cost</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>BWD</td>
+                <td class="text-align">20000</td>
+                <td class="text-align">100%</td>
+                <td class="text-align">0</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>SWD</td>
+                <td class="text-align">100000</td>
+                <td class="text-align">80%</td>
+                <td class="text-align">20000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>WEB dev</td>
+                <td class="text-align">100000</td>
+                <td class="text-align">80%</td>
+                <td class="text-align">20000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Laravel</td>
+                <td class="text-align">100000</td>
+                <td class="text-align">80%</td>
+                <td class="text-align">20000</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="total">Total
+                </td>
+                <td style="text-align:right !important">60000</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+body {
+    padding: 0;
+    margin: 0 !important;
+    /* width: 1427px; */
+    /* direction: ltr; */
+    /* display: block; */
+    /* height: 2000px */
+    box-sizing: border-box;
+    /* text-align: center; */
+}
+
+.parent {
+    width: 60%;
+    margin: auto;
+}
+
+.menu-bar {
+    overflow: hidden;
+    width: 60%;
+    height: 40px;
+    top: 0;
+    /* padding-top: 40px; */
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    padding: 10px 0;
+    /* background-color: red; */
+
+}
+
+.container {
+    /* background-color: green; */
+    width: 100%;
+    display: flex;
+    /* text-align: center; */
+    height: 700px;
+
+    margin-top: 50px;
+}
+
+.left {
+    display: inline-block;
+    width: 40%;
+    padding-right: 20px;
+    /* background-color: yellow; */
+}
+
+.right {
+    display: inline-block;
+    width: 60%;
+    /* background-color: black; */
+}
+
+.footer {
+
+    margin-bottom: 40px;
+    margin-top: 100px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* background-color: cyan; */
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.footer1 {
+    /* display: inline-block; */
+    /* padding-left: auto; */
+    /* margin-right: 50px; */
+    /* vertical-align: top; */
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    margin-left: 30px;
+}
+
+.link:hover {
+    margin-bottom: 5px;
+    /* text-decoration: underline 4px blue; */
+    border-bottom: 4px solid blue;
+}
+
+.linkGroup {
+    display: inline-block;
+    padding-top: 0px !important;
+    margin-right: 100px;
+}
+
+.appStoreImage {
+    width: 42%;
+    height: 60px;
+    padding: 0;
+    /* display: block; */
+    margin-top: 20px
+}
+
+.rightImage {
+    height: 100%;
+    width: 100%
+}
+
+.blockElement {
+    display: block;
+    margin-top: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.blockElement1 {
+    background-color: rgb(238, 238, 238);
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    font-size: 18px
+}
+
+.forgotPassword {
+    display: inline-block;
+    margin: 30px 0;
+}
+
+.loginBtn {
+    background-color: rgb(5, 5, 250);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 0 20px;
+    height: 40px;
+    margin-right: 20px !important;
+    font-size: 15px;
+    margin: 30px 0;
+}
+
+h1 {
+    font-size: 60px;
+    background: -webkit-linear-gradient(red, blue, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 40px;
+}
+
+i {
+    background: -webkit-linear-gradient(red, blue, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 40px;
+}
+
+.policy {
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.country {
+    /* margin-right: 50px; */
+    text-decoration: none;
+    border: none;
+    /* width: 200px; */
+}
+
+.policy:hover {
+    border-bottom: 2px solid black;
+}
+
+.country:hover {
+    border-bottom: 2px solid black;
+}
+
+span,
+select,
+option {
+    font-size: 11px;
+}

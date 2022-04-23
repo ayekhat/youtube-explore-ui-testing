@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Oswald:wght@300;400;600;700&family=Rubik+Glitch&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Beau Rivage', cursive;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Rubik Glitch', cursive;
+        }
+
+        .btn {
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+            transition: 0.5s;
+            border-radius: 10px;
+
+        }
+
+        .btn-outline-primary {
+
+            background-color: white;
+            color: #fb8c00;
+            border: 2px solid #fb8c
+        }
+
+        .btn-outline-primary:hover {
+            background-color: #fb8c00;
+            color: white;
+        }
+
+        .btn-secondary {
+            background-color: rgb(41, 216, 158);
+
+            border: 2px solid rgb(41, 216, 158);
+
+        }
+
+        .btn-dark {
+            background-color: black;
+
+            border: 2px solid black;
+
+        }
+
+
+        .btn:active {
+            background-color: rgb(158, 17, 158);
+        }
+
+        .btn-secondary:active {
+            background-color: rgb(34, 165, 121);
+        }
+
+        .btn-dark:active {
+            background-color: rgb(192, 180, 180);
+        }
+
+        .btn-primary {
+            background-color: rgb(62, 138, 236);
+            border: 2px solid rgb(62, 138, 236);
+        }
+
+        .btn-primary:active {
+            background-color: rgb(29, 85, 158);
+
+        }
+
+        .btn-danger {
+            background-color: rgb(235, 15, 136);
+            border: 2px solid rgb(235, 15, 136);
+        }
+
+        .btn-danger:active {
+            background-color: rgb(177, 27, 110);
+
+        }
+
+        .rounded {
+            border-radius: 10px;
+        }
+
+        /* .btn:hover {
+            background-color: rgb(75, 10, 75);
+        } */
+    </style>
+</head>
+
+<body>
+    <button class="btn btn-primary">
+        Primary button
+    </button>
+    <a href="" class="btn btn-danger">
+        Danger button
+    </a>
+    <button class="btn btn-secondary">
+        Secondary button
+    </button>
+    <button class="btn btn-dark">
+        Dark button
+    </button>
+    <hr>
+    <button class="btn btn-outline-primary">Outline button</button>
+    <button class="btn btn-secondary"><i class="fas fa-car"></i></button>
+    <button class="btn btn-outline-primary"><i class="fas fa-camera"></i></button>
+    <hr>
+    <button class="btn btn-outline-primary rounded"><i class="fas fa-camera"></i></button>
+    <button class="btn btn-secondary rounded"><i class="fas fa-car"></i></button>
+
+</body>
+
+</html>

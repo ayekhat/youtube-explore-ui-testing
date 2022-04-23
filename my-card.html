@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@200;300&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Anek Odia', sans-serif;
+        }
+
+        body {
+            background: url("texture.jpg");
+            background-attachment: fixed;
+            filter: contrast(0.5);
+        }
+
+        .card {
+            border: 1px solid #e3d5ca;
+            width: 500px;
+            /* overflow: hidden; */
+            margin: auto;
+            margin-top: 20px;
+            padding: 10px 15px;
+            padding-bottom: 0;
+            padding-left: 0;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            box-sizing: border-box;
+            /* background-color: white; */
+        }
+
+        .card-header {
+            margin: auto;
+            width: 50px;
+        }
+
+        .profile {
+            background-color: #d5bdaf;
+            border-radius: 50px;
+            border: 1px solid #d5bdaf;
+            height: 100px;
+            width: 100px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            padding: 10px 15px;
+        }
+
+        .card-content {
+            margin: auto;
+            margin-top: 25px;
+            text-align: center;
+            margin-left: 57px;
+            padding-left: 0;
+        }
+
+        .icon-margin {
+            margin-right: 15px;
+            ;
+        }
+
+        .text-shadow {
+            text-shadow: 6px 4px 15px rgb(82, 82, 80);
+        }
+
+        .add-text {
+            width: 150px;
+            background-color: #6c584c;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            text-align: center;
+            height: 40px;
+            margin: auto;
+            margin-top: 10px;
+            margin-bottom: -20px;
+            position: relative;
+            display: block;
+            font-size: 18px;
+        }
+
+        .filter {
+            filter: inherit;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-body">
+            <div class="card-header">
+                <button class="profile filter"><i class=" fas fa-user fa-5x"></i></button>
+            </div>
+            <div class="card-content">
+                <i class="fa-brands fa-facebook fa-2x icon-margin text-shadow"></i>
+                <i class="fa-brands fa-twitter fa-2x icon-margin text-shadow"></i>
+                <i class="fa-brands fa-google fa-2x icon-margin text-shadow"></i>
+                <i class="fa-brands fa-instagram fa-2x icon-margin text-shadow"></i>
+            </div>
+
+            <div class="card-content" style="text-align: left;margin-left:25px">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore nesciunt repellat, laboriosam incidunt
+                odio animi fuga pariatur laborum illo dolorem necessitatibus culpa ratione qui possimus repudiandae
+                recusandae vitae, debitis temporibus.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore nesciunt repellat, laboriosam incidunt
+                odio animi fuga pariatur laborum illo dolorem necessitatibus culpa ratione qui possimus repudiandae
+                recusandae vitae, debitis temporibus.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore nesciunt repellat, laboriosam incidunt
+                odio animi fuga pariatur laborum illo dolorem necessitatibus culpa ratione qui possimus repudiandae
+                recusandae vitae, debitis temporibus.
+
+            </div>
+            <button class="add-text">Add text</button>
+            <img src="./assets/assets/poe.jpg" alt="" class="filter" width="100%" style="padding:0;margin-left:8px">
+        </div>
+
+    </div>
+</body>
+
+</html>
